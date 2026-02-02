@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant ni Bebeng</title>
+</head>
+
+<body>
+  <header>
+    <!-- Branding -->
+    <div class="branding">
+    <img src="images/Landpage.png"
+      width="200" height="200"
+      alt="Restaurant ni bebeng logo">
+    
+    <!-- Title -->
+    <h1>Order now!</h1>
+
+    
+    <!-- Navigation Links -->
+    <nav aria-label="main navigation">
+      
+    <ul>
+      <li> <a href="menu.html">Menu</a></li>
+      <li> <a href="Reviews.html">Reviews</a></li>
+      <li> <a href="Contact.html">Contact Us</a></li>
+      <li> <a href="Order-now.html">Order now</a></li>
+      <li> <a href="About-us.html">About Us</a></li>
+      <li> <a href="Landing.html">Home</a></li>
+      
+      
+    </ul>
+      
+    </nav>
+    
+  </header>
+  		
+  		<main>
+  				
+  				
+  				<section class="order-form">
+  						<h2>Fill up to order!</h2>
+  						
+  						<form action="form.html" method="POST">
+  								
+  								<fieldset>
+  										
+  										<legend>Delivery information</legend>
+  								
+  								<label for="name">Name:</label>
+  								<input type="text" id="name"
+  										name="name" required>
+  								<br>
+  								<label for="address">Delivery Adress:</label>
+  								<input type="text" id="address"
+  										name="address" required>
+  								<br>
+  										
+  										<label for="region">Region:</label>
+  										<select name="region" id="region">
+  												<option value="manila">Manila</option>
+  												<option value="makati">Makati</option>
+  												<option value="quezon">Quezon</option>
+  												<option value="panggasinan">Panggasinan</option>
+  										</select>
+  										<br>
+  									<label for="telo">Number:</label>
+  								<input type="tel" id="telo" name="tel"
+       pattern="^[0-9]{11}$"
+       placeholder="09123456789"  required>
+  								<br>
+  								
+  								<label for="note">Note:</label>
+  								<input type="text" id="note" name="note"
+  										 placeholder="Note to rider">
+  										
+  										
+  								</fieldset>
+  								
+  								<fieldset>
+  										<legend>Choose your payment method</legend>
+  										
+  											<label for="cash">Cash on delivery</label>
+  										<input type="radio" id="cash" name="payment"
+  												value="Cash on delivery">
+  										<br>
+  										<label for="online">Online Payment</label>
+  										<input type="radio" id="online" name="payment"
+  												value="online payment">
+  								</fieldset>
+  								
+  								</section>
+  						
+  						
+  								
+  								<section class="menu-order">
+  										
+  										<fieldset>
+  												<legend>Choose your food</legend>
+  										
+  										
+  										<article>
+  												<h3>Adobo</h3>
+  												<p>Tender chicken or pork stewed in soy sauce and vinegar</p>
+  												<p>₱150</p>
+  												<input type="checkbox" name="order" value="adobo">
+  										</article>
+  										
+  	
+
+<article>
+  <h3>Sinigang na Baboy</h3>
+  <p>Pork in tangy tamarind soup with vegetables</p>
+  <p>₱160</p>
+  <input type="checkbox" name="order" value="sinigang-na-baboy">
+</article>
+
+<article>
+  <h3>Lechon Kawali</h3>
+  <p>Crispy pan-fried pork belly</p>
+  <p>₱200</p>
+  <input type="checkbox" name="order" value="lechon-kawali">
+</article>
+
+<article>
+  <h3>Kare-Kare</h3>
+  <p>Oxtail stew in rich peanut sauce</p>
+  <p>₱250</p>
+  <input type="checkbox" name="order" value="kare-kare">
+</article>
+
+<article>
+  <h3>Pancit Canton</h3>
+  <p>Stir-fried noodles with meat and vegetables</p>
+  <p>₱120</p>
+  <input type="checkbox" name="order" value="pancit-canton">
+</article>
+
+<article>
+  <h3>Laing</h3>
+  <p>Taro leaves cooked in coconut milk with chili</p>
+  <p>₱140</p>
+  <input type="checkbox" name="order" value="laing">
+</article>
+
+<article>
+  <h3>Chicken Inasal</h3>
+  <p>Grilled marinated chicken with lemongrass</p>
+  <p>₱180</p>
+  <input type="checkbox" name="order" value="chicken-inasal">
+</article>
+
+<article>
+  <h3>Halo-Halo</h3>
+  <p>Shaved ice dessert with mixed fruits and beans</p>
+  <p>₱100</p>
+  <input type="checkbox" name="order" value="halo-halo">
+</article>
+
+<article>
+  <h3>Bangus Sisig</h3>
+  <p>Spicy and tangy milkfish sisig</p>
+  <p>₱190</p>
+  <input type="checkbox" name="order" value="bangus-sisig">
+</article>
+
+<article>
+  <h3>Turon</h3>
+  <p>Fried banana spring rolls with caramelized sugar</p>
+  <p>₱60</p>
+  <input type="checkbox" name="order" value="turon">
+</article>
+  										</fieldset>
+  										
+  								</section>
+  								
+  								
+  								<input type="submit">
+  								
+  						</form>
+  						
+  						
+  				</section>
+  				
+  				
+  				
+  		</main>
+  		  <footer>
+   <small>© 2026 Restaurant ni Bebeng. All rights reserved</small>
+  </footer>
+
+  
+  		
+  </body>
+</html>
